@@ -1,0 +1,45 @@
+*{
+	font-family: Calibri;
+}
+
+#header {
+
+	background-color: white;
+	border-bottom:solid 2px #444444;
+	 display: flex;
+    justify-content: space-around;
+    
+}
+
+.menu{
+
+	list-style: none;
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+
+	padding:1;		
+}
+
+.item {
+}
+.a {
+	color:#444444;
+	text-decoration: none;
+	margin: 10px;
+
+
+}
+
+footer {
+
+	background-color: #444444;
+	color: white;
+	 display: flex;
+    justify-content: space-around;
+}
+h5{
+	 font-family: futura;
+	 color: ;
+}
