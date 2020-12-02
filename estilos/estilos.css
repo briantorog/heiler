@@ -1,0 +1,446 @@
+body{
+	box-sizing: border-box;
+	display: flex;
+	flex-flow: column nowrap;
+	margin:0px;
+	padding: 0px;
+ }
+
+.padre{
+	display: flex;
+	flex-flow: column nowrap;
+	font-family: 'Montserrat', sans-serif;
+ }
+    .header {
+      	display: flex;
+	    flex-flow: column nowrap;
+	    align-items: flex-start;
+	    border-bottom: 1px solid red;  
+	  
+    }
+
+            .menu{
+           	 display: flex;
+             flex-flow:row wrap;
+           	 align-items: center;
+           	 justify-content:center;
+            }
+                .logo{
+                	margin:0px 50px 0px 50px;
+                	flex: 1 1 auto;
+                	display: flex;
+                	flex-flow:row nowrap;
+                	align-items: center;
+           	        justify-content:center;
+                }
+
+                .nav{
+                	flex: 9 1 auto;
+                	display: flex;
+                	flex-flow:column nowrap;
+                	align-items: center;
+           	        justify-content:center;
+                }
+                    .lista{
+                    	display: flex;
+                    	flex-flow:row wrap;
+                    	list-style-type: none;
+  						text-decoration: none;
+                    }
+                        .item1{
+                        	margin:30px 30px 30px 30px;
+                        }
+
+                        .a{
+                        	text-decoration:none;
+                        	color:#444444;
+                        }
+
+                        .a:hover{
+                        	text-decoration:none;
+                        	color:#e60000;
+                        }
+
+.carrusel{
+	background:url(../multimedia/principal.jpg);
+	background-attachment: center;
+	background-position:contain;
+	background-size: cover;
+	padding: 200px;
+	margin: 00px 0px 100px 0px;
+	display: flex;
+	flex-flow:column wrap;
+	justify-content: center;
+	align-items: center;
+ }
+	.text1{
+	color: white;
+	display: flex;
+	align-items: center;
+		
+	}
+	.boton{
+	padding:10px;
+	margin: 10px;
+	width: 110px;
+	background-color: #444444;
+	color:  white;
+	text-decoration:none;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	transition:all 500ms ease; 
+	}
+	   .boton:hover{
+	   	color:white;
+	   	background-color: #e60000;
+    	text-decoration:none;
+    	width: 130px;
+    	display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+
+	   }
+
+.section1{
+	margin: 100px;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
+ }
+      .subtitulo1{
+      	display: flex;
+		flex-flow: column nowrap;
+		justify-content: center;
+		align-items: center;
+      }
+      	.sm{
+      		font-size:50px;
+      	}
+
+      .articulos{
+      	margin: 30px;
+      	display: flex;
+      	flex-flow:row nowrap;
+      	justify-content: center;
+		align-items: center;
+
+      }
+
+           .articulo{
+           	    margin: 10px 20px 10px 20px;
+	           	display: flex;
+		      	flex-flow:column wrap;
+		      	justify-content: space-around;
+				align-items:center;
+           }
+
+                 .item2{
+
+                 }
+
+.frase{
+	margin:0px;
+	padding: 200px;
+	border: 0px;
+	background-color:#801b1b;
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+
+
+ }
+   .texto{
+   	color:white;
+   	font-size:50px;
+   	
+   }
+
+.historia{
+	margin:0px;
+	padding: 100px;
+	border: 0px;
+	background-color:#e6e6e6;
+	display: flex;
+	flex-flow: row nowrap; 
+ }
+
+	.historia1{
+		display: flex;
+		flex-flow: column wrap; 
+	}
+		.titulo2{
+			margin:0px 0px 0px 0px;
+			color:#444444;
+   			font-size:60px;
+		}
+		.texto2{
+			margin:0px 80px 0px 0px;
+			color:#444444;
+   			font-size:18px;
+		}
+	.fotohistoria{
+		
+	}
+	.fotohistoria2{
+		display: none;
+	}
+
+.mp{
+	margin: 0px;
+	padding: 20px;
+	background-color:#FFE600;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content:center;
+	align-items: center;
+ }
+	.eshop{
+		color: #2D3277;
+		list-style-type: none;
+  		text-decoration: none;
+	}
+
+.footer{
+	display:flex;
+	flex-flow: column nowrap;
+	justify-content: center;
+	align-items: center;
+	background-color:#444444;
+	color:white;
+
+ }
+
+	 .contactos{
+	    	padding: 0;
+	    	margin:20px;
+	    	font-size:40px;
+	    }
+
+	.datos{
+		padding:10px;
+		margin: 50px;
+		display:flex;
+		flex-flow: row wrap;
+		justify-content:flex-start;
+	  	align-items: flex-start;
+	}
+
+
+	    .ventas{
+	    	padding:0px 50px 0px 0px;
+
+	    }
+	         .numeros{
+	         	padding: 0;
+	         	text-decoration: none;
+	         	list-style-type: none;
+
+	         }
+
+
+	    .email{
+	    	padding:0px 50px 0px 0px;
+
+	    }
+
+	    .ubicacion{
+	    	padding:0px 50px 0px 0px;
+
+	    }
+
+
+@media all and (max-width: 1083px) {
+	.articulos{
+		flex-flow:row wrap;
+	}
+ }
+
+@media all and (max-width: 1047px) {
+	.historia{
+		flex-flow:column;
+		justify-content: center;
+		align-items: center;
+	}
+		.fotohistoria{
+			padding: 30px;
+		}
+	
+ }
+
+@media all and (max-width: 765px){
+	.item1{margin: 15px}
+	.logo{padding: 10px;}
+	
+ }
+
+@media all and (max-width: 585px) {
+	.item1{ margin: 10px 38px 10px 38px }
+	
+ }
+
+@media all and (max-width: 617px) {
+	.carrusel{padding: 80px;}
+	.text1{font-size:30px;}
+	.section1{margin: 50px;}
+	.sm{font-size:30px;}
+	.frase{padding: 50px}
+	.texto{font-size:20px;}
+	.historia{padding: 50px;}
+	.fotohistoria{display: none;}
+	.fotohistoria2{display: block; margin: 20px;}
+	.titulo2{font-size:30px;}
+	.texto2{font-size: 15px;}
+ }
+
+@media all and (max-width:455px){
+	.item1{margin: 10px 19px 10px 19px}
+ }
+	
+
+
+/*portones*/
+.imgportones{
+    background:url(../multimedia/portonprincipal.jpg);
+	background-attachment: center;
+	background-position:contain;
+	background-size: cover;
+	padding: 200px;
+	margin: 00px 0px 0px 0px;
+	display: flex;
+	flex-flow:column wrap;
+	justify-content: center;
+	align-items: center;
+ }  
+
+    .portonesh1{
+	    color: white;
+		display: flex;
+		align-items: center;
+	    }
+
+.portones{
+	display: flex;
+	flex-flow: column wrap;
+
+ }
+	.logosPorton{
+		padding: 50px;
+		margin: 5px;
+		border-radius: 50px;
+		background-color: #444444;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-start;
+		align-items: center;
+		list-style-type: none;
+  		text-decoration: none;
+
+	}
+		.logosPorton div{
+			
+		}
+			.tituloPorton{
+				color: white;
+				font-size: 54px;
+			}
+			.pPorton {
+				color: white;
+				list-style-type: none;
+	  			text-decoration: none;
+	  			font-size: 20px;
+			}
+
+/*CORTiNAS*/
+.imgcortinas{
+	background:url(../multimedia/cortinaprincipal.jpg);
+	background-attachment: center;
+	background-position:contain;
+	background-size: cover;
+	padding: 200px;
+	margin: 00px 0px 0px 0px;
+	display: flex;
+	flex-flow:column wrap;
+	justify-content: center;
+	align-items: center;
+
+ }
+	.cortinash1{
+		color: white;
+		display: flex;
+		align-items: center;
+	}
+
+
+
+
+
+/*contactos*/
+
+.datos{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: center;
+	justify-content: space-around;
+	padding: 0;
+	margin: 0;
+	background-color:#444444;
+}
+	.formulario{
+		padding: 40px;
+		color: white;
+		
+	}
+		.nombreYapellido{
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: flex-start;
+			width: 100%
+			
+		}
+			.nombre{
+				padding: 10px;
+			
+			}
+				.nombreMensaje{
+					width: 100%
+				}
+
+			.apellido{
+				padding: 10px;
+				
+			}
+				.apellidoMensaje{
+					width: 100%
+					
+				}
+
+		.correo{
+			padding: 10px;
+		}
+			.correoMensaje{
+				width: 100%;
+
+			}
+
+		.consulta{
+			padding: 10px;
+		}
+			.consultaMensaje{
+				width: 100%;
+			}
+
+		.enviar{
+			padding: 10px;
+		}
+			.enviarBoton{
+				width: 100%;
+			}
+	.mapa{
+		padding: 40px;
+	}
